@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Barcode Genarater</title>
+
+</head>
+
+<body>
+
+    <h1>Genarate Barcode</h1>
+    <p>Enter Barcode Value :
+    <input type="text" id="txt-input"></p>
+
+    <svg class="barcode" id="barcode" style="display: none;"></svg>
+    <button class="btn1" onclick="downloadSVG();" style="display: none;" id="downloadbtn">Download</button>
+
+
+    <button class="btn2" id="btn-genarate">Submit</button>
+
+    <script src="JsBarcode.all.min.js"></script>
+    <script src="script.js"></script>
+    
+</body>
+
+</html>
