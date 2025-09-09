@@ -14,14 +14,14 @@
 <body>
 
     <h1>Genarate Barcode</h1>
-    <p>
-        Enter Barcode Value :
-        <input type="text" id="txt-input">
-    </p>
+    <div class="inputBox">
+        <p id="txt1">Enter Barcode Value :</p>
+        <input type="text" id="txt-input" />
+    </div>
 
     <svg class="barcode" id="barcode" style="display: none;"></svg>
     <button class="btn1" onclick="downloadSVG();" style="display: none;" id="downloadBtn">Download</button>
-    <span id="valueEmpty" style="display: none; color: red;">Please enter the Value!</span>
+    <span id="valueEmpty" style="display: none;">Please enter the Value!</span>
 
     <button class="btn2" id="btn-genarate">Submit</button>
 
